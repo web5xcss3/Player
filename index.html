@@ -1,38 +1,41 @@
 <!DOCTYPE HTML>
 
 <html>
-	<head>
-		<title>Show player embedded</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="css/style.css" />
-	</head>
-	<body>
 
-		<!-- Player -->
-			<div class="player opened">
-                <div class="container">
-                    <div class="player-info">
-                        <div class="player-info-photo" style="background-image: url('images/pic01.jpg');"></div>
-                        <div class="player-info-desc">
-                            <h2 class="title player-info-desc-title">Sed amet lorem</h2>
-                        </div>
-                        <nav class="player-nav">
-                            <ul>
-                                <li class="player-nav-item"><a href="#/" class="icon-arrow-down"></a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                    <div class="player-embed">
-                        <!--- iframe here -->
-						<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/701986366&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-                    </div>
+<head>
+    <title>Show player embedded</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+    <!-- Player -->
+    <div class="player opened">
+        <div class="container">
+            <div class="player-info">
+                <div class="player-info-photo" style="background-image: url('images/pic01.jpg');"></div>
+                <div class="player-info-desc">
+                    <h2 class="title player-info-desc-title">Sed amet lorem</h2>
                 </div>
+                <nav class="player-nav">
+                    <ul>
+                        <li class="player-nav-item"><a href="#/" class="icon-arrow-down"></a></li>
+                    </ul>
+                </nav>
             </div>
-			
-		<!-- Scripts -->
-			<script src="js/jquery.min.js"></script>
-			<script src="js/main.js"></script>
-			
-	</body>
+            <div class="player-embed">
+                <!--- iframe here -->
+                <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/701986366&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
 </html>
